@@ -20,6 +20,12 @@ p {
     line-height: 1.4em;
 }
 
+img {
+    width: 500px;
+    float: left;
+    padding: 40px;
+}
+
 #blog {
     border-top: 1px dotted #ccc;
 }
@@ -27,3 +33,45 @@ p {
 .blog-post {
     border-bottom: 1px dotted #ccc;
 }
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    color: white;
+    top: 0;
+    background: #242424;
+    font-size: 3em;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+
+a:hover { 
+    text-decoration: lightslategrey; 
+}
+
+
+a:active { 
+    text-decoration: none; 
+}
+
+article {
+    background: #ccc;
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+}
+
+section {
+    display: flex;
+}
+
