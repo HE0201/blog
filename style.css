@@ -75,3 +75,8 @@ section {
     display: flex;
 }
 
+@media (max-width: 400px) {
+    .blog-post { 
+        width: 30%;
+    }
+}
